@@ -18,8 +18,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(../assets/Ta9spU.jpg); /* Replace with your star image */
-    animation: starsAnimation 10s linear infinite;
+    background: url(../assets/Ta9spU.jpg); 
+    animation: starsAnimation 5s linear infinite;
+    
   }
   
   .hero-title {
@@ -39,7 +40,7 @@ body {
   .name {
     font-weight: 700;
     margin-left: 1rem;
-    color: rgb(101, 165, 101);
+    color: rgb(75, 145, 75);
   }
   
   .hero-subtitle {

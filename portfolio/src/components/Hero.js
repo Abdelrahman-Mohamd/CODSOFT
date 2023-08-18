@@ -6,7 +6,7 @@ const Hero = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setFadeHero(window.pageYOffset > 0);
+      setFadeHero(window.scrollY > 0);
     };
 
     window.addEventListener('scroll', handleScroll);

@@ -1,18 +1,16 @@
 body{
-    height: 1000px;
+    height: 100%;
 }
 .scroll-component {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
     width: 50%;
-    margin-left: 9rem;
-    margin-top: 5rem;
     background-color: rgba(19, 50, 19, 0.265);
     border-radius: 30px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 50%;
     margin-left: 9rem;
-    margin-top: 5rem;
+    margin-top: 9rem;
     padding: 1rem;
     transition: opacity 0.5s ease-in-out;
   }
@@ -44,37 +42,37 @@ body{
     margin-right: 1rem;
   }
   .css{
-    color: rgb(84, 84, 84);
+    color: rgb(20, 141, 202);
     font-size: 1.5rem;
     margin-left: 1rem;
   }
   .html{
-    color: rgb(84, 84, 84);
+    color: rgb(231, 64, 18);
     font-size: 1.5rem;
     margin-left: 1rem;
   }
   .js{
-    color: rgb(84, 84, 84);
+    color: rgb(188, 204, 15);
     font-size: 1.5rem;
     margin-left: 1rem;
   }
   .bootstrap{
-    color: rgb(84, 84, 84);
+    color: rgb(119, 48, 167);
     font-size: 1.5rem;
     margin-left: 1rem;
   }
   .nodejs{
-    color: rgb(84, 84, 84);
+    color: rgb(4, 124, 34);
     font-size: 1.5rem;
     margin-left: 1rem;
   }
   .sql{
-    color: rgb(84, 84, 84);
-    font-size: 2.2rem;
+    color: rgb(20, 141, 202);
+    font-size: 2.5rem;
     margin-left: 1rem;
   }
   .mongo{
-    color: rgb(84, 84, 84);
+    color: rgb(4, 124, 34);
     font-size: 1.5rem;
     margin-left: 1rem;
   }
@@ -82,4 +80,12 @@ body{
     color: rgb(84, 84, 84);
     font-size: 1.5rem;
     margin-left: 1rem;
+  }
+  .profile-picture{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 55rem ;
+    opacity: 0.5;
   }

@@ -1,0 +1,41 @@
+.resume-icon{
+    font-size: 20rem;
+    color: rgba(19, 50, 19, 0.628);
+    transition: color 0.5s ease-in-out;
+}
+body{
+    height: 100%;
+}
+.scroll-component-resume{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 30px;
+    margin-top: 9rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .scroll-component-resume.show {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .component-heading-resume{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    z-index: 1;
+  }
+  .resume-icon:hover{
+    color: rgba(29, 107, 29, 0.833);
+    transform: rotateY(30);
+    cursor: pointer;
+  }
+
+  
+  

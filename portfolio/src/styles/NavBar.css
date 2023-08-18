@@ -6,7 +6,7 @@ body {
 nav {
   padding-top: 20px;
   background-color: rgba(90, 104, 90, 0);
-  padding-bottom: 7px;
+  padding-bottom: 3px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -23,7 +23,7 @@ ul {
   gap: 2rem;
 }
 
-a {
+.nav-item{
   text-decoration: none;
   font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
@@ -35,12 +35,12 @@ a {
   transition: color 0.5s, top ease 0.5s;
 }
 
-a:hover {
+.nav-item:hover {
   position: relative;
   top: -3px;
 }
 
-a:hover::after {
+.nav-item:hover::after {
   content: "";
   position: absolute;
   bottom: -2px;
