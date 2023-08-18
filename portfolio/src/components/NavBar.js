@@ -3,7 +3,7 @@ import '../styles/NavBar.css';
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState(null);
-// '2px solid rgb(160, 205, 160)'
+
   const handleLinkClick = (link) => {
     setActiveLink(link);
   };
