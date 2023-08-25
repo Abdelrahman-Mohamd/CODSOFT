@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Avatar from './Avatar.js';
+import AboutMenu from './AboutMenu.js';
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+      <Avatar page="about"/>
+      <AboutMenu/>
+    </>
   )
 }
 
-export default About
+export default About;

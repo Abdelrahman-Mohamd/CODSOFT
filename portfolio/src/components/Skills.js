@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Avatar from './Avatar.js';
+import SkillsMenu from './SkillsMenu.js';
 
-function Skills() {
+const About = () => {
   return (
-    <div>Skills</div>
+    <>
+      <Avatar page="skills"/>
+      <SkillsMenu/>
+    </>
   )
 }
 
-export default Skills
+export default About;
