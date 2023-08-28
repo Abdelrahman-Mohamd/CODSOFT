@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
 .menu {
     width: 19rem;
     position: fixed;
@@ -19,6 +21,7 @@
   .title {
     font-size: 1rem;
     padding-right: 2.5rem;
+    /* background-color: red; */
   }
   
   .item.active .title {
@@ -79,7 +82,12 @@
   
   .active-subheading .p-container {
     display: block;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    /* background-color: red; */
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.532);
+    width: 160%;
   }
   
   .icon-title-container {
@@ -87,6 +95,7 @@
     gap: 1.2rem;
     margin-bottom: 0.5rem;
     cursor: default;
+    /* background-color: green; */
   }
   
   .icon {
@@ -100,6 +109,7 @@
     position: relative;
     margin: 0.2rem 0;
     padding: 0.5rem 0 0.5rem 1rem;
+    /* background-color: yellow; */
   }
   
   @media (max-width: 700px) {

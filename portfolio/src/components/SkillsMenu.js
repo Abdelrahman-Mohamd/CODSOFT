@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import classNames from "classnames";
 import "../styles/skillsMenu.css";
 import skills from "./SkillsData";
-import frontendIcon from "../assets/eagle-emblem.png";
-import backendIcon from "../assets/hawk-emblem.png";
+import frontendIcon from "../assets/front-end.png";
+import backendIcon from "../assets/back-end.png";
 
 export default class SkillsMenu extends Component {
   constructor(props) {
@@ -26,16 +26,7 @@ export default class SkillsMenu extends Component {
         className={`skill-sub-container-${this.state.activeMenuItem}`}
       >
         <h3>{skill.title}</h3>
-        <div className="level-container">
-          {[...Array(6)].map((_, i) => (
-            <div
-              key={i}
-              className={`level-point ${
-                i < skill.level ? "filled" : "unfilled"
-              }`}
-            />
-          ))}
-        </div>
+        <img src={skill.icon} alt="icon"/>
       </div>
     ));
   };

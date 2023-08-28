@@ -1,10 +1,11 @@
 /* this file will have the common styling across the entire projects */
 
 /* import "Russo One" Google font*/
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
 
 body{
-    font-family: "Russo One" , "sans-serif";
+    font-family: 'Cinzel Decorative' , "sans-serif";
     color: white;
     -webkit-tap-highlight-color: transparent; /* this is to prevent blue highlights around the nav links in phone*/
 }

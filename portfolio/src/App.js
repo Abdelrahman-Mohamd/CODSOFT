@@ -7,6 +7,7 @@ import Projects from './components/Projects.js';
 import Contact from './components/Contact.js';
 import Background from './components/Background.js';
 import MyStats from './components/MyStats.js';
+import Resume from './components/Resume.js';
 import './styles/app.css';
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/skills" element={<Skills/>}/>
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/resume" element={<Resume/>}/>
       </Routes>
       <MyStats/>
     </Router>

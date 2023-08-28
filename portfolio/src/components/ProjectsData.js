@@ -10,9 +10,8 @@ const projects = {
       <>
         <p>
            This was my graduation project, it was meant to facilitate the use of public transportaion in Cairo
-           , it simply takes you current location and your desired destination and tells you exactly how to reach 
-           your destintion using public transportation, the results are ordered by you preference wether it is Cost, Distnce,
-           or Time, this project is also available for the blind using speech recognition.
+           , it takes current location and desired destination and tells you exactly how to reach 
+           your destintion using public transportation, the results are ordered by preference, this project is also available for the blind using speech recognition.
         </p>
       </>
     ),

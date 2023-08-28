@@ -4,6 +4,7 @@ import astronautHelmet from '../assets/astronaut-helmet.png';
 import deadEye from '../assets/dead-eye.png';
 import stack from '../assets/stack.png';
 import envelope from '../assets/envelope.png';
+import resume from '../assets/resume.png';
 import '../styles/nav.css';
 
 const Nav = () => {
@@ -19,6 +20,8 @@ const Nav = () => {
                 return "nav-projects";
             case "/contact":
                 return "nav-contact";
+            case "/resume":
+                return "nav-resume";
             default:
                 return "";
         }
@@ -34,6 +37,8 @@ const Nav = () => {
                 return "PROJECTS";
             case "/contact":
                 return "CONTACT";
+            case "/resume":
+                return "RESUME";
             default:
                 return "";
         }
@@ -61,6 +66,7 @@ const Nav = () => {
         {renderNavLink("/skills", deadEye, "deadEye icon", "nav-skills")}
         {renderNavLink("/projects", stack, "stack icon", "nav-projects")}
         {renderNavLink("/contact", envelope, "envelope icon", "nav-contact")}
+        {renderNavLink("/resume", resume, "envelope icon", "nav-resume")}
    </nav>
   )
 }

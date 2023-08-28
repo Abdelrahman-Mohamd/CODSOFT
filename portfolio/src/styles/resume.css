@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.cv{
+    margin-top: 15rem;
+    height: 15rem;
+    transition: height 0.5s ease-in;
+}
+.cv:hover{
+   height: 22rem;
+   cursor: pointer;
+}

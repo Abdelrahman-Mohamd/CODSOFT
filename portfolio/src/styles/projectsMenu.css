@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 .project-menu {
     width: 45rem;
     position: fixed;
@@ -63,18 +64,30 @@
     opacity: 0.9;
   }
   .project-sub-container p {
-    font-size: 0.875rem;
+    font-size: 1.2rem;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.7;
+    width: 120%;
+    color: rgba(255, 255, 255, 0.532);
   }
   
   .link-container a {
     color: white;
     text-decoration: none;
     margin-top: 1rem;
-    width: 50%;
+    width: 30%;
     height: 2.75rem;
     text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4rem;
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.178);
+    transition: background-color 0.3s linear;
   }
-  
+  .link-container a:hover{
+    background-color: rgba(111, 7, 90, 0.333);
+  }
   .link-container {
     display: flex;
     justify-content: space-around;
